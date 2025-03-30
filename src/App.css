@@ -2,9 +2,22 @@
 .Banner {
     position:fixed;top:0;left:0;height: 45px;width: 100%;
     border: 2px dotted rgb(170, 170, 170);display:flex;justify-content: flex;align-items: center;
+    
 }
 .Banner .NavLinks {
-    border:2px dotted rgb(215, 173, 173);width:300px;height:40px;
-    display:flex;justify-content: flex-end;align-items: center;
-    gap:35.5px
+    border:2px dotted rgb(215, 173, 173);width:350px;height:40px;
+    display:flex;justify-content: center;align-items: center;
+    gap:30px;margin-left: auto;
+}
+.AboutMe-Container {
+display:flex;justify-content: center;align-items: center;
+gap:75px;padding: 0 50px;border: 2px dotted gray;margin:65px 0px 0px 0px;
+}
+.DefaultIcon img {
+    height:250px;display:flex;justify-content: center;align-items: left;
+    border: 2px dotted green;
+}
+.AbtMe {
+    border: 2px dotted rgb(186, 148, 148);
+    flex: 1;font-size: 1.2rem;
 }
