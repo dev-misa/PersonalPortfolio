@@ -8,6 +8,9 @@ function App() {
   
       <div>
         <Banner />
+        <div className="SectionTitle">
+          <h1>About Me</h1>
+        </div>
         <AboutMe />
       </div>
   );
