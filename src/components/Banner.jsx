@@ -2,7 +2,7 @@ import React from 'react';
 const Banner = () => {
   return (
       <div className="Banner">
-          <h1>Misael T.</h1>
+          <h1>item 0</h1>
               <div className="NavLinks">
                   <h3>item 1</h3>
                   <h3>item 2</h3>

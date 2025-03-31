@@ -1,27 +1,44 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 .Banner {
     position:fixed;top:0;left:0;height: 45px;width: 100%;
-    border: 2px dotted gray;display:flex;justify-content: flex;align-items: center;
-    
+    border: 2px solid red;display:flex;justify-content: flex;align-items: center;
+    background: whitesmoke; 
+}
+.Banner h1 {
+  border:2px solid gray;height:40px;display:flex;align-items: center;
 }
 .Banner .NavLinks {
-    border: 2px dotted gray;width:350px;height:40px;
+    border: 2px solid gray;width:350px;height:40px;
     display:flex;justify-content: center;align-items: center;
     gap:30px;margin-left: auto;
 }
 .AboutMe-Container {
 display:flex;justify-content: center;align-items: center;
-gap:75px;padding: 0 50px;border: 2px dotted gray;margin:0px 0px 0px 0px;
+gap:75px;padding: 0 50px;border: 2px solid red;margin:50px 0px 200px 0px;
 }
 .DefaultIcon img {
     height:250px;display:flex;justify-content: center;align-items: left;
-    border: 2px dotted gray;
+    border: 2px solid gray;
 }
 .AbtMe {
-    border: 2px dotted gray;
-    flex: 1;font-size: 1.2rem;
+    border: 2px solid gray;
+    flex: 1;font-size: 28px;
 }
 .SectionTitle {
-  border: 2px dotted gray;display:flex;align-items: center;justify-content: center;
-  margin:100px 0px 0px 0px;;padding: 0 50px;
+  border: 2px solid blue;display:flex;align-items: center;justify-content: center;
+  margin:150px 0px 0px 0px;padding: 0 50px;
+}
+.SectionTitle h1 {
+  font-size: 35px;
+}
+.Projects-Section {
+  display:flex;justify-content: center;align-items: center;
+  border:2px solid red;margin:50px 0px 60px 0px;padding:0 50px;
+  gap:50px
+}
+.Projects-desc p{
+  border: 2px solid gray;font-size:25px;
+}
+.Projects-img img{
+  height: 350px;border:2px solid gray;display:flex;width: 350px;
 }
