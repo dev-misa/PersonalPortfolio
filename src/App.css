@@ -14,7 +14,7 @@
 }
 .AboutMe-Container {
 display:flex;justify-content: center;align-items: center;
-gap:75px;padding: 0 50px;border: 2px solid red;margin:50px 0px 200px 0px;
+gap:75px;padding: 0 50px;border: 2px solid red;margin:100px 0px 100px 0px;
 }
 .DefaultIcon img {
     height:250px;display:flex;justify-content: center;align-items: left;
@@ -26,19 +26,34 @@ gap:75px;padding: 0 50px;border: 2px solid red;margin:50px 0px 200px 0px;
 }
 .SectionTitle {
   border: 2px solid blue;display:flex;align-items: center;justify-content: center;
-  margin:150px 0px 0px 0px;padding: 0 50px;
+  margin:100px 0px 0px 0px;padding: 0 50px;
 }
 .SectionTitle h1 {
   font-size: 35px;
 }
 .Projects-Section {
   display:flex;justify-content: center;align-items: center;
-  border:2px solid red;margin:50px 0px 60px 0px;padding:0 50px;
+  border:2px solid red;margin:100px 0px 100px 0px;padding:0 50px;
   gap:50px
 }
 .Projects-desc p{
   border: 2px solid gray;font-size:25px;
 }
 .Projects-img img{
-  height: 350px;border:2px solid gray;display:flex;width: 350px;
+  height: 325px;border:2px solid gray;display:flex;width: 325px;
+}
+.Skills-Section {
+  border:2px solid red;flex-wrap: wrap;align-items: center;padding: 0 300px;
+  display:flex;justify-content: center;column-gap: 80px;row-gap: 45px;margin:100px 0px 100px 0px;
+
+}
+.Skills-Section img {
+  height: 118px;width: 124px;
+}
+.Hr {
+  display:flex;justify-content: center;align-items: center;
+  padding:10px 10px;border: 2px dotted blue;
+}
+hr {
+  color:rebeccapurple;width: 93vw;margin: 0px 0px 0px 0px;
 }
