@@ -2,12 +2,12 @@ import React from 'react';
 const Banner = () => {
   return (
       <div className="Banner">
-          <h1>item 0</h1>
+          <h1>Misael T</h1>
               <div className="NavLinks">
-                  <h3>item 1</h3>
-                  <h3>item 2</h3>
-                  <h3>item 3</h3>
-                  <h3>item 4</h3>
+                  <h3>ABOUT</h3>
+                  <h3>PROJECTS</h3>
+                  <h3>SKILLS</h3>
+                  <h3>CONTACT</h3>
               </div>
       </div>
     

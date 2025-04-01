@@ -1,11 +1,11 @@
 import React from 'react'
-import avatarDefault from '../assets/avatar-default.png';
+import gengar from '../assets/gengar-pfp.jpg';
 function AboutMe() {
   return (
     
         <div className="AboutMe-Container">
             <div className="DefaultIcon">
-                <img src={avatarDefault} alt="image" />
+                <img src={gengar} alt="pfp" />
             </div>
             <div className="AbtMe">
                 <p>

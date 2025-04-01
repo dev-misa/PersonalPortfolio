@@ -1,31 +1,32 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 .Banner {
     position:fixed;top:0;left:0;height: 45px;width: 100%;
-    border: 2px solid red;display:flex;justify-content: flex;align-items: center;
-    background: whitesmoke; 
+    display:flex;justify-content: flex;align-items: center;
+    background: #904E99;color:white;
 }
 .Banner h1 {
-  border:2px solid gray;height:40px;display:flex;align-items: center;
+  height:40px;display:flex;align-items: center;padding:10px;
 }
 .Banner .NavLinks {
-    border: 2px solid gray;width:350px;height:40px;
+    width:445px;height:40px;
     display:flex;justify-content: center;align-items: center;
     gap:30px;margin-left: auto;
 }
 .AboutMe-Container {
 display:flex;justify-content: center;align-items: center;
-gap:75px;padding: 0 50px;border: 2px solid red;margin:100px 0px 100px 0px;
+gap:75px;padding: 0 50px;margin:100px 0px 100px 0px;
 }
 .DefaultIcon img {
     height:250px;display:flex;justify-content: center;align-items: left;
-    border: 2px solid gray;
+    border-radius:125px;
+    
 }
 .AbtMe {
-    border: 2px solid gray;
+    
     flex: 1;font-size: 28px;
 }
 .SectionTitle {
-  border: 2px solid blue;display:flex;align-items: center;justify-content: center;
+  display:flex;align-items: center;justify-content: center;
   margin:100px 0px 0px 0px;padding: 0 50px;
 }
 .SectionTitle h1 {
@@ -33,23 +34,23 @@ gap:75px;padding: 0 50px;border: 2px solid red;margin:100px 0px 100px 0px;
 }
 .Projects-Section {
   display:flex;justify-content: center;align-items: center;
-  border:2px solid red;margin:100px 0px 100px 0px;padding:0 50px;
+  margin:100px 0px 100px 0px;padding:0 50px;
   gap:50px
 }
 .Projects-desc p{
-  border: 2px solid gray;font-size:25px;
+  font-size:25px;
 }
 .Projects-img img{
-  height: 325px;border:2px solid gray;display:flex;width: 325px;
+  height: 350px;display:flex;width: 350px;
 }
 .Skills-Section, .Contact-Container  {
-  border:2px solid red;display:flex;justify-content: center;align-items: center;
+  display:flex;justify-content: center;align-items: center;
   margin:100px 0px 100px 0px;
 
 
 }
 .SkillSVGIcons,.Contact-Section {
-  border: 2px dotted gray;flex-wrap: wrap;width: 50vw;justify-content: space-evenly;
+  flex-wrap: wrap;width: 50vw;justify-content: space-evenly;
   display:flex;align-items: center; padding:10px 10px;
 }
 .Skills-Section img, .Contact-Section img{
@@ -58,8 +59,22 @@ gap:75px;padding: 0 50px;border: 2px solid red;margin:100px 0px 100px 0px;
 }
 .Hr {
   display:flex;justify-content: center;align-items: center;
-  padding:10px 10px;border: 2px dotted blue;
+  padding:10px 10px;
 }
 hr {
-  color:rebeccapurple;width: 93vw;margin: 0px 0px 0px 0px;
+  color:#904E99;width: 97vw;margin: 0px 0px 0px 0px;
+}
+.DLButton-Container {
+  display:flex;justify-content: center;align-items: center;
+  margin:100px 0px 100px 0px;
+}
+.Btn button {
+  width: 305px;
+  height: 73px;border-radius:25px;font-size: 25px;font-weight: 700;
+  background:#904E99;border:0px solid white;color:white;
+}
+
+.Footer-Container {
+  display:flex;justify-content:center ;align-items: center;
+  font-size:30px;height: 107px;background: rgba(217, 217, 217, 0.55);
 }
