@@ -42,13 +42,19 @@ gap:75px;padding: 0 50px;border: 2px solid red;margin:100px 0px 100px 0px;
 .Projects-img img{
   height: 325px;border:2px solid gray;display:flex;width: 325px;
 }
-.Skills-Section {
-  border:2px solid red;flex-wrap: wrap;align-items: center;padding: 0 300px;
-  display:flex;justify-content: center;column-gap: 80px;row-gap: 45px;margin:100px 0px 100px 0px;
+.Skills-Section, .Contact-Container  {
+  border:2px solid red;display:flex;justify-content: center;align-items: center;
+  margin:100px 0px 100px 0px;
+
 
 }
-.Skills-Section img {
-  height: 118px;width: 124px;
+.SkillSVGIcons,.Contact-Section {
+  border: 2px dotted gray;flex-wrap: wrap;width: 50vw;justify-content: space-evenly;
+  display:flex;align-items: center; padding:10px 10px;
+}
+.Skills-Section img, .Contact-Section img{
+  height: 118px;width: 124px;margin-left:20px;margin-bottom: 13px;margin-top: 13px;
+  margin-right: 20px;
 }
 .Hr {
   display:flex;justify-content: center;align-items: center;

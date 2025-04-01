@@ -7,6 +7,7 @@ import ProjectsRL from './components/ProjectsRL'
 import tempImage from './assets/temp-image.jpg';
 import Skills from './components/Skills';
 import HorizontalRule from './components/HorizontalRule';
+import Contact from './components/Contact';
 function App() {
   return (
   
@@ -38,6 +39,10 @@ function App() {
         </div>
         <Skills/>
         <HorizontalRule/>
+        <div className="SectionTitle">
+          <h1>Section Title 4</h1>
+        </div>
+        <Contact />
       </div>
   );
 }
