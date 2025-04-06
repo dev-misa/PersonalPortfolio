@@ -95,7 +95,6 @@ hr {
   }
 
   .SectionTitle {
-    border: 2px dotted black;display:flex;width: 100%;justify-content: center;align-items: center
-    
+    border:1.9px dotted black;display:flex;width: 100%;justify-content: center;align-items: center
   }
 }
