@@ -24,6 +24,7 @@ import tiktokImage from './assets/icons8-tiktok.svg'
 import youtubeImage from './assets/icons8-youtube.svg'
 import mangImage from './assets/mangform.png'
 import pokeImage from './assets/pokeweather.png'
+import HamburgerComponent from './components/Hamburger';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         </div>
         <Contact />
         <DLButton/>
+        <HamburgerComponent/>
         <Footer/>
       </div>
   );
