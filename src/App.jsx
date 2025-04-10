@@ -24,7 +24,6 @@ import tiktokImage from './assets/icons8-tiktok.svg'
 import youtubeImage from './assets/icons8-youtube.svg'
 import mangImage from './assets/mangform.png'
 import pokeImage from './assets/pokeweather.png'
-import HamburgerComponent from './components/Hamburger';
 
 function App() {
   return (
@@ -40,17 +39,22 @@ function App() {
           <h1>Projects</h1>
         </div>
         <ProjectsLR
+        image={pokeImage}
         description="Lorem ipsum odor amet, consectetuer adipiscing elit. Libero rutrum maximus
             fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
             fringilla sollicitudin."
-        image={pokeImage}
         />
         <ProjectsRL
+        image={mangImage}
         description="Lorem ipsum odor amet, consectetuer adipiscing elit. Libero rutrum maximus
             fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
             fringilla sollicitudin."
-        image={mangImage}
         />
+        <div className="NavVisit">
+          <a href="https://dev-misa.github.io/MangForm-v1/">
+            <p>Go to Webpage 🚀</p>
+          </a>
+        </div>
         <HorizontalRule/>
         <div className="SectionTitle">
           <h1>Skills</h1>
@@ -62,7 +66,6 @@ function App() {
         </div>
         <Contact />
         <DLButton/>
-        <HamburgerComponent/>
         <Footer/>
       </div>
   );
