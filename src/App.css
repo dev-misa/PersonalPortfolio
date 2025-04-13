@@ -82,7 +82,7 @@ hr {
   font-size:25px;margin:0px 0px 25px 0px;text-decoration: none;color:#723c79;font-weight: 900;
   border:2px solid red;
 }
-@keyframes float {
+/*@keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0); }
@@ -93,7 +93,52 @@ hr {
 .Ani-PY img,.Ani-HTML img,.Ani-CSS img,.Ani-TWCSS img{
   animation: float 1.5s ease-in-out infinite;
 }
+*/
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 
+.Ani-Java img {
+  animation: float 1.8s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+.Ani-JS img {
+  animation: float 2.1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.Ani-React img {
+  animation: float 2.4s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.Ani-AWS img {
+  animation: float 1.5s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+
+.Ani-PY img {
+  animation: float 2.6s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.Ani-HTML img {
+  animation: float 2s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.Ani-CSS img {
+  animation: float 1.7s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+.Ani-TWCSS img {
+  animation: float 2.2s ease-in-out infinite;
+  animation-delay: 0.7s;
+}
 
 @media (max-width: 400px) {
   * {
