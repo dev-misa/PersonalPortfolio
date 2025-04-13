@@ -12,14 +12,14 @@ function Skills() {
   return (
     <div className="Skills-Section">
         <div className="SkillSVGIcons">
-          <img src={javaImage}/>
-          <img src={pythonImage}/>
-          <img src={javascriptImage}/>
-          <img src={htmlImage}/>
-          <img src={cssImage}/>
-          <img src={reactImage}/>
-          <img src={tailwindImage}/>
-          <img src={awsImage}/>
+          <div className="Ani-Java"><img src={javaImage}/></div>
+          <div className="Ani-PY"><img src={pythonImage}/></div>
+          <div className="Ani-JS"><img src={javascriptImage}/></div>
+          <div className="Ani-HTML"><img src={htmlImage}/></div>
+          <div className="Ani-CSS"><img src={cssImage}/></div>
+          <div className="Ani-React"><img src={reactImage}/></div>
+          <div className="Ani-TWCSS"><img src={tailwindImage}/></div>
+          <div className="Ani-AWS"><img src={awsImage}/></div>
         </div>
     </div>
   )

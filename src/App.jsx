@@ -44,20 +44,16 @@ function App() {
             fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
             fringilla sollicitudin."
         />
+        
         <ProjectsRL
         image={mangImage}
         description="Lorem ipsum odor amet, consectetuer adipiscing elit. Libero rutrum maximus
             fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
             fringilla sollicitudin."
         />
-        <div className="NavVisit">
-          <a href="https://dev-misa.github.io/MangForm-v1/">
-            <p>Go to Webpage 🚀</p>
-          </a>
-        </div>
         <HorizontalRule/>
         <div className="SectionTitle">
-          <h1>Skills</h1>
+          <h1>Skills & Tools</h1>
         </div>
         <Skills/>
         <HorizontalRule/>
