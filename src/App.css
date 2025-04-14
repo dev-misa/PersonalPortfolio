@@ -184,6 +184,78 @@ hr {
   }
   .Footer-Container {
     display:flex;justify-content:center ;align-items: center;
-    font-size:30px;height: 77px;font-size: 20px;
+    height: 77px;font-size: 18px;
   }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+  .Banner {
+    display:flex;background:#904E99;position:relative;height: 418px;flex-direction: column; gap:10px;
+  }
+  .Banner h1 {
+    margin:50px 0px 0px 0px;
+  }
+  .NavLinks {
+    display:flex; flex-direction: column;width: 100%;height: 300px;
+  }
+  .Projects-img img{
+    display: flex;height: 250px;width: 250px;
+  }
+  .Projects-desc p{
+    font-size: 24px;
+  }
+  .AbtMe {
+    font-size:24px;
+  }
+  .AboutMe-Container,.Projects-Section{
+    display:flex;flex-direction: column;
+  }
+  .Projects-SectionLR {
+    display:flex;flex-direction: column-reverse;
+  }
+  .Skills-Section img, .Contact-Section img{
+    height: 75px;width: 72px;margin-left:20px;margin-bottom: 13px;margin-top: 13px;
+    margin-right: 20px;
+  }
+  .SkillSVGIcons,.Contact-Section {
+    flex-wrap: wrap;width: 70vw;justify-content: center;
+    display:flex;align-items: center; padding:10px 10px;gap:0px;
+  }
+ 
+  .Btn button {
+    width: 210px;
+    height: 50px;font-size: 15px;font-weight: 700;
+    background:#904E99;border:0px solid white;color:white;
+  }
+  .Footer-Container {
+    display:flex;justify-content:center ;align-items: center;height: 77px;font-size: 20px;
+  }
+}
+
+@media (max-width:320px) {
+  .SectionTitle h1 {
+    font-size: 25px;
+  }
+  .Projects-desc p,.AbtMe p{
+    font-size: 18px;
+  }
+  .Projects-img img {
+    display: flex;height: 200px;width: 200px;
+  }
+  .DefaultIcon img {
+    display:flex; height: 180px;width: 180px;
+  }
+  .Skills-Section img, .Contact-Section img{
+    height: 50px;width: 47px;margin-left:20px;margin-bottom: 13px;margin-top: 13px;
+    margin-right: 20px;
+  }
+  .Btn button {
+    width: 150px;
+    height: 50px;font-size: 12px;font-weight: 800;
+    background:#904E99;border:0px solid white;color:white;
+  }
+  .Footer-Container {
+    font-size:17px;
+  }
+
 }
