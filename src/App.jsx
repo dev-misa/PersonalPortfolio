@@ -38,12 +38,14 @@ function App() {
         <div className="SectionTitle">
           <h1>Projects</h1>
         </div>
-        <ProjectsLR
-        image={pokeImage}
-        description="Lorem ipsum odor amet, consectetuer adipiscing elit. Libero rutrum maximus
-            fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
-            fringilla sollicitudin."
-        />
+        <div className="PokeImage">
+          <ProjectsLR
+          image={pokeImage}
+          description="Lorem ipsum odor amet, consectetuer adipiscing elit. Libero rutrum maximus
+              fringilla accumsan aenean metus. Natoque cras lectus enim duis cubilia orci
+              fringilla sollicitudin."
+          />
+        </div>
         
         <ProjectsRL
         image={mangImage}
