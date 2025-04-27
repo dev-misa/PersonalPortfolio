@@ -103,7 +103,7 @@ hr {
   }
 }
 .PokeImage img {
-  animation: spin 5s linear infinite;
+  animation: spin 10s linear infinite;
 
 }
 @keyframes float {
