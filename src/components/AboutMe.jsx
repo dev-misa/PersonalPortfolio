@@ -9,9 +9,7 @@ function AboutMe() {
             </div>
             <div className="AbtMe">
                 <p>
-                    Lorem ipsum odor amet, consectetuer adipiscing elit.
-                 Libero rutrum maximus fringilla accumsan aenean metus.
-                 Natoque cras lectus enim duis cubilia orci fringilla sollicitudin.
+                    Ciao tutti, mi chiamo Misael. 
                 </p>
             </div>
         </div>
