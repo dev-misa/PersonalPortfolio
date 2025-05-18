@@ -9,7 +9,7 @@ function AboutMe() {
             </div>
             <div className="AbtMe">
                 <p>
-                    Ciao tutti, mi chiamo Misael. 
+                    Ciao tutti, mi chiamo Misael
                 </p>
             </div>
         </div>
