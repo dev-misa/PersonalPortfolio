@@ -1,3 +1,3 @@
 [Visit page 🚀](https://dev-misa.github.io/PersonalPortfolio/)
 
-details coming soon...
+Personal Portfolio Webpage still under construction...🚧
